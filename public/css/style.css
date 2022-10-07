@@ -1,0 +1,173 @@
+/* start of index css */
+
+.d-flex {
+    margin-left: 60%;
+}
+
+.logo {
+    margin-left: 35%;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.nav-item {
+    margin-left: 20%;
+    text-align: justify;
+}
+
+footer {
+    height: 300px;
+    width: 100%;
+    background-image: url(/PUBLIC/images/blog-white-smoke-vapor-black-background.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    left: 0;
+    bottom: 0;
+}
+
+#l1 {
+    text-decoration: none;
+    color: white;
+}
+
+.d1 {
+    height: 1000px;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.f1 {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-link:hover,
+.social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+
+
+/* end of index css */
+
+
+/* about us css :start */
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+
+.d-flex {
+    margin-left: 60%;
+}
+
+.logo {
+    margin-left: 35%;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.nav-item {
+    margin-left: 20%;
+    text-align: justify;
+}
+
+footer {
+    height: 300px;
+    width: 100%;
+    background-image: url(/PUBLIC/images/blog-white-smoke-vapor-black-background.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    left: 0;
+    bottom: 0;
+}
+
+#l1 {
+    text-decoration: none;
+    color: white;
+}
+
+.d1 {
+    height: 1000px;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.f1 {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* about us css end */
+
+
+/* start of contcat us */
+
+.nav-item {
+    margin-left: 20%;
+    text-align: justify;
+}
+
+footer {
+    height: 300px;
+    width: 100%;
+    background-image: url(/PUBLIC/images/blog-white-smoke-vapor-black-background.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#l1 {
+    text-decoration: none;
+    color: white;
+}
+
+.d1 {
+    height: 1000px;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.f1 {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* end of contact us */
