@@ -26,6 +26,29 @@ app.get("/contact", (req, res) => {
     res.status(200).render("../views/mainpages/contact.ejs");
 });
 
+app.get("/sendemail", (req, res) => {
+    console.log("senemail rout hit");
+    let transporter = nodemailer.createTransport({
+        host: "smtp.gmail.com",
+        port: 587,
+        secure: false, // true for 465, false for other ports
+        auth: {
+            user: 'smokeshahukka@gmail.com', // generated ethereal user
+            pass: 'tzwczvqvnuvqrshd' // generated ethereal password
+        },
+    });
+    let info = transporter.sendMail({
+        from: 'smokeshahukka@gmail.com', // sender address
+        to: "shekhar.kundra@gmail.com", // list of receivers
+        subject: "this is subject", // Subject line
+        text: "Hello world?", // plain text body
+        html: "<b>Hello world?</b>", // html body
+    });
+
+    res.status(200).send("email sent");
+});
+
+
 app.get("/*", (req, res) => {
     res.status(404).render("../views/mainpages/error404.ejs");
 });
